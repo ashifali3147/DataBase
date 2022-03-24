@@ -20,6 +20,14 @@
         android:layout_marginTop="5dp"
         android:hint="Number"
         android:inputType="phone"/>
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_number"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:inputType="textPassword"/>
     <Button
         android:id="@+id/btn_add_data"
         android:layout_width="wrap_content"
@@ -34,6 +42,14 @@
         android:text="Show Data"
         android:layout_above="@+id/btn_add_data"
         android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btn_login_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:layout_above="@+id/btn_show_data"
+        android:layout_centerHorizontal="true"/>
+
 
 
 </RelativeLayout>

@@ -1,12 +1,15 @@
 package com.example.database;
 
 public class EMPModel {
-    String id = "";
-    String name = "";
-    String number = "";
+    public String id = "";
+    public String name = "";
+    public String number = "";
+    public String password = "";
 
-    public EMPModel(String name, String number) {
+    public EMPModel(String id, String name, String number, String password) {
+        this.id = id;
         this.name = name;
         this.number = number;
+        this.password = password;
     }
 }

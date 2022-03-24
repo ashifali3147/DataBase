@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DataBase">
         <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
             android:name=".ShowData"
             android:exported="false" />
         <activity
